@@ -1,0 +1,7 @@
+env/
+fly_credentials.txt
+fly.toml
+fly_db_connection_command.txt
+
+**/__pycache__/*
+
