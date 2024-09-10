@@ -25,9 +25,13 @@ SECRET_KEY = "django-insecure-489*98f97&dids2l6x%b_soi5mcei9)p6cs)v(x1j9a5q%r8d+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
-# Application definition
+ALLOWED_HOSTS = [
+    "https://discount-diet-fx2ru0svs-mikey-pettys-projects.vercel.app",
+    "https://discount-diet-64dbc4864601.herokuapp.com/",
+    "localhost",
+]
+  
+# Application definition 
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -40,7 +44,8 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # your React dev server
+    "https://discount-diet-fx2ru0svs-mikey-pettys-projects.vercel.app",  # Vercel frontend
+    "http://localhost:3000",  # For local development (React running on localhost)
 ]
 
 

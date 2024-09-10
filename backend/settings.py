@@ -1,3 +1,6 @@
+import django_heroku
+django_heroku.settings(locals())
+
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
@@ -11,8 +14,6 @@ DATABASES = {
         },
     }
 }
-
-CORS_ALLOW_ALL_ORIGINS = True
 
 INSTALLED_APPS = [
     # Other apps

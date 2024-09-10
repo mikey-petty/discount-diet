@@ -5,3 +5,4 @@ fly_db_connection_command.txt
 
 **/__pycache__/*
 
+.vercel
